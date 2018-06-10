@@ -1,4 +1,4 @@
-import _map from 'lodash.map'
+import _map from 'lodash.map';
 
 export default {
   feed() {
@@ -14,9 +14,9 @@ export default {
             id: i.slug
           };
           return temp;
-        })
-        return mappers.pipe(_posts)
+        });
+        return mappers.pipe(_posts);
       }
-    }
+    };
   }
-}
+};
